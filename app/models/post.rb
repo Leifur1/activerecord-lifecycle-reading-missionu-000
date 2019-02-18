@@ -4,7 +4,7 @@ class Post < ActiveRecord::Base
   end
 
   belongs_to :author
-  validate :is_title_case 
+  validate :is_title_case
 
   private
 
